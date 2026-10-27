@@ -1,6 +1,6 @@
 # Hasil validasi aktual — 22 Oktober 2026
 
-**Pembaruan 27 Oktober 2026:** pencocokan katalog resmi ditambahkan dan diuji; 72 entri sumber nyata sudah dibaca dan disertakan sebagai snapshot. Total tes backend kini 51 lulus. Browser untuk katalog/produk dan alur aplikasi lulus; model/Google end-to-end tetap belum diklaim sukses. Lihat [PRODUCT_MATCHING.md](PRODUCT_MATCHING.md) untuk metode, batasan, dan hasil pengujian terbaru. Paket Windows diperbarui tetapi belum dipublikasikan ke GitHub; tautan internal workspace dilaporkan tidak dapat diunduh oleh pengguna. Publikasi kode beserta contoh data pelanggan menunggu izin pengguna.
+**Pembaruan 27 Oktober 2026:** pencocokan katalog resmi ditambahkan dan diuji; 72 entri sumber nyata sudah dibaca dan disertakan sebagai snapshot. Total tes backend kini 51 lulus. Browser untuk katalog/produk dan alur aplikasi lulus; model/Google end-to-end tetap belum diklaim sukses. Lihat [PRODUCT_MATCHING.md](PRODUCT_MATCHING.md) untuk metode, batasan, dan hasil pengujian terbaru. Paket Windows diperbarui dan sudah diunggah ke GitHub `anrgy4/telkom_project`, branch `main`, setelah izin pengguna diberikan pada 27 Oktober 2026. Ref remote telah diverifikasi melalui Git. Tautan internal workspace sebelumnya dilaporkan tidak dapat diunduh; distribusi sekarang melalui GitHub. Pemeriksaan HTTP unduhan langsung dari cloud dibatasi proxy, sehingga keberhasilan unduh lewat browser pengguna belum diklaim.
 
 ## Yang sudah berjalan
 
@@ -43,4 +43,4 @@ Menyimpan draf tidak membuktikan konfigurasi sudah diterapkan pada mesin, dipubl
 
 Simpan perubahan jaringan melalui pengaturan lingkungan agar host storage model diizinkan. Setelah akses itu tersedia, jalankan `.venv/bin/python scripts/pull-model.py`; periksa `llm.ready` pada `/api/health`. Setelah akses Google pulih, jalankan satu analisis nyata melalui UI dan periksa sumber, kutipan, struktur sembilan aktivitas, serta identitas perusahaan. Bila Google meminta verifikasi lagi, hentikan dan tunggu pemulihan akses. Tidak ada retry pencarian berulang sebagai pengganti izin atau penyelesaian CAPTCHA.
 
-Pengguna dapat meninjau pengaturan tersimpan dan mempublikasikan lingkungan setelah validasi langsung yang tersisa selesai. Publikasi dan pemulihan snapshot pada task baru belum diuji. Tidak ada push GitHub yang dilakukan.
+Pengguna dapat meninjau pengaturan tersimpan dan mempublikasikan lingkungan setelah validasi langsung yang tersisa selesai. Publikasi dan pemulihan snapshot pada task baru belum diuji. Publikasi cloud dan pengujian restore masih belum dilakukan. Source dan paket Windows kemudian diunggah ke GitHub setelah izin pengguna pada 27 Oktober 2026; ini berbeda dari publikasi lingkungan cloud.
