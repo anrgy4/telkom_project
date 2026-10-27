@@ -44,3 +44,9 @@ Menyimpan draf tidak membuktikan konfigurasi sudah diterapkan pada mesin, dipubl
 Simpan perubahan jaringan melalui pengaturan lingkungan agar host storage model diizinkan. Setelah akses itu tersedia, jalankan `.venv/bin/python scripts/pull-model.py`; periksa `llm.ready` pada `/api/health`. Setelah akses Google pulih, jalankan satu analisis nyata melalui UI dan periksa sumber, kutipan, struktur sembilan aktivitas, serta identitas perusahaan. Bila Google meminta verifikasi lagi, hentikan dan tunggu pemulihan akses. Tidak ada retry pencarian berulang sebagai pengganti izin atau penyelesaian CAPTCHA.
 
 Pengguna dapat meninjau pengaturan tersimpan dan mempublikasikan lingkungan setelah validasi langsung yang tersisa selesai. Publikasi dan pemulihan snapshot pada task baru belum diuji. Publikasi cloud dan pengujian restore masih belum dilakukan. Source dan paket Windows kemudian diunggah ke GitHub setelah izin pengguna pada 27 Oktober 2026; ini berbeda dari publikasi lingkungan cloud.
+
+## Perbaikan pemeriksaan startup Windows (27 Oktober 2026)
+
+Log pengguna menunjukkan Uvicorn sudah menyala, tetapi launcher melaporkan timeout. Pemeriksaan lama mengakses `/api/health` dengan timeout 2 detik, sedangkan pemeriksaan Ollama di endpoint itu memiliki timeout 3 detik. Pemeriksaan baru memakai `/api/ready` dengan identitas aplikasi yang tetap dan tanpa akses Ollama. Status lengkap AI tetap tersedia pada `/api/health`.
+
+52 tes lulus, termasuk regresi bahwa kesiapan UI tidak memanggil pemeriksaan model. Uji HTTP pada proses Uvicorn nyata dengan server Ollama simulasi yang sengaja merespons lebih lambat dari timeout juga lulus: UI terdeteksi siap segera, status AI melaporkan belum tersedia, dan UI tetap siap. Ini uji regresi di Linux, bukan klaim telah menjalankan launcher pada Windows pengguna. Pesan Playwright sebelum unduhan Chromium pada log pengguna bukan penyebab timeout yang diperbaiki di sini.

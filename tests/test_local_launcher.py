@@ -19,15 +19,27 @@ spec.loader.exec_module(ai)
 class LocalLauncherTests(unittest.TestCase):
     def test_existing_app_is_identified_without_installing_anything(self):
         opener=Mock()
-        opener.open.return_value=io.BytesIO(json.dumps({"status":"ok","llm":{}}).encode())
+        opener.open.return_value=io.BytesIO(json.dumps({"status":"ok","app":"rantai-ivca"}).encode())
         with patch("run_local.build_opener",return_value=opener):
             self.assertTrue(run_local.app_ready())
+        opener.open.assert_called_once_with(run_local.URL + "/api/ready", timeout=2)
 
     def test_other_service_on_port_is_not_treated_as_rantai(self):
-        for data in [{"status":"ok"},[],None]:
+        for data in [{"status":"ok"},{"status":"ok","app":"other"},{"status":"ok","llm":{}},[],None]:
             opener=Mock();opener.open.return_value=io.BytesIO(json.dumps(data).encode())
             with patch("run_local.build_opener",return_value=opener):
                 self.assertFalse(run_local.app_ready())
+
+    def test_ui_is_ready_without_waiting_for_ollama(self):
+        from fastapi.testclient import TestClient
+        from app.main import app
+        with patch("app.main.model_status", side_effect=AssertionError("Must not contact Ollama")) as model:
+            with TestClient(app) as client:
+                response = client.get("/api/ready")
+                self.assertEqual(response.status_code, 200)
+                self.assertEqual(response.json(), {"status":"ok","app":"rantai-ivca"})
+                self.assertEqual(client.get("/").status_code, 200)
+            model.assert_not_called()
 
     def test_unchanged_installed_dependencies_and_browser_are_reused(self):
         with tempfile.TemporaryDirectory() as d:

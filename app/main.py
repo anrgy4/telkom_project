@@ -36,6 +36,12 @@ async def home():
     return FileResponse(STATIC / "index.html")
 
 
+@app.get("/api/ready")
+async def ready():
+    # Starting the UI must not wait for Ollama or any external service.
+    return {"status": "ok", "app": "rantai-ivca"}
+
+
 @app.get("/api/health")
 async def health():
     return {"status": "ok", "llm": await model_status(), "search": {"provider": "google_scraping", "javascript_renderer": "chromium"}}

@@ -18,9 +18,9 @@ URL = "http://127.0.0.1:8000"
 
 def app_ready(url=URL):
     try:
-        with build_opener(ProxyHandler({})).open(url + "/api/health", timeout=2) as response:
+        with build_opener(ProxyHandler({})).open(url + "/api/ready", timeout=2) as response:
             body = json.load(response)
-        return isinstance(body, dict) and body.get("status") == "ok" and "llm" in body
+        return isinstance(body, dict) and body.get("status") == "ok" and body.get("app") == "rantai-ivca"
     except (URLError, OSError, ValueError):
         return False
 

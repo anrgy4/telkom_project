@@ -46,6 +46,7 @@ Versi tanpa instalasi juga disertakan di `outputs/Rantai-Buka-Langsung.html`. Bu
 - **Ollama belum aktif:** buka Ollama dari Start Menu, lalu jalankan file kedua lagi.
 - **Model belum siap:** tunggu unduhan pada file kedua selesai, lalu periksa model dari Panduan.
 - **Port 8000 dipakai aplikasi lain:** tutup aplikasi yang menggunakan port itu, lalu buka file pertama lagi.
+- **Log sudah menampilkan `Uvicorn running`, tetapi peluncur berkata aplikasi belum siap:** gunakan paket terbaru. Pemeriksaan kesiapan UI kini terpisah dari pemeriksaan Ollama, sehingga AI yang belum merespons tidak menghalangi pembukaan aplikasi. Untuk paket lama yang dependensinya sudah terpasang, buka folder berisi `1-JALANKAN-APLIKASI.bat`, ketik `cmd` pada bilah alamat File Explorer, lalu Enter. Jalankan `.venv\Scripts\python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8000`, buka `http://127.0.0.1:8000`, dan biarkan jendela CMD terbuka.
 - **Google meminta CAPTCHA:** aplikasi menghentikan riset. Tunggu akses Google pulih lalu coba kembali; aplikasi tidak melewati CAPTCHA. Koneksi laptop dapat berbeda dari jaringan cloud, sehingga akses Google tetap perlu diuji.
 - **Analisis lama:** model berjalan di laptop sendiri dan dapat memerlukan beberapa menit.
 
