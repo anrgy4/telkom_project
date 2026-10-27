@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rantai — IVCA Workspace</title>
+  <meta name="description" content="Pahami bisnis pelanggan, petakan rantai nilainya, temukan peluang solusi IndiBiz dengan riset Google dan LLM lokal.">
+  <link rel="stylesheet" href="/static/style.css">
+  <script defer src="/static/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Rantai, beranda"><span class="brandmark">r<span>•</span></span><strong>rantai<span class="brand-dot">.</span></strong><span class="brand-divider"></span><span class="brand-label">IVCA WORKSPACE</span></a>
+    <nav aria-label="Navigasi utama"><button class="nav-active" id="workspace-nav">Workspace</button><button id="guide-nav">Panduan</button></nav>
+    <button id="runtime-status" class="runtime-status" title="Pengaturan LLM lokal"><span class="status-dot"></span><span>Memeriksa model lokal</span><span class="arrow-small">→</span></button>
+  </header>
+  <main>
+    <section class="intro">
+      <div><p class="eyebrow"><span></span> INDUSTRY VALUE CHAIN ANALYSIS</p><h1>Kenali bisnisnya.<br>Temukan <span>peluangnya.</span></h1><p class="intro-copy">Ubah data pelanggan dan informasi publik menjadi<br class="desktop-break"> peta bisnis serta percakapan yang lebih bermakna.</p></div>
+      <div class="process" aria-label="Alur analisis"><div><b>01</b><span>Data pelanggan</span></div><i>→</i><div><b>02</b><span>Riset Google</span></div><i>→</i><div><b>03</b><span>LLM lokal</span></div><i>→</i><div class="process-last"><b>04</b><span>Peta IVCA</span></div></div>
+    </section>
+
+    <div class="workspace">
+      <aside class="input-panel">
+        <div class="panel-title"><span class="section-number">01</span><div><h2>Profil pelanggan</h2><p>Mulai dari yang sudah diketahui.</p></div></div>
+        <form id="company-form">
+          <label for="preset">Pilih contoh pelanggan</label>
+          <select id="preset"><option>Memuat contoh…</option></select>
+          <div class="input-separator"><span>atau sesuaikan data sendiri</span></div>
+          <label for="company">Nama perusahaan <span class="required">*</span></label>
+          <input id="company" name="company" required minlength="2" maxlength="180" autocomplete="organization" placeholder="Contoh: Kospin Jasa">
+          <label for="sector">Segmen bisnis <span class="required">*</span></label>
+          <select id="sector" name="sector"><option value="retail">Retail · IndiBiz Ruko</option><option value="cooperative">Koperasi · IndiBiz Finance</option><option value="bank">BPR · IndiBiz Finance</option><option value="health">Kesehatan · IndiBiz Health</option><option value="education">Pendidikan · IndiBiz Education</option></select>
+          <label for="witel">Witel / wilayah</label><input id="witel" maxlength="180" placeholder="Witel pelanggan">
+          <div class="field-heading"><label>Layanan existing</label><button type="button" class="text-button" id="add-service">+ Tambah</button></div>
+          <div id="service-inputs"></div>
+          <button type="button" class="import-button" id="open-import"><span>↑</span> Impor tabel Excel / CSV <span class="arrow-small">→</span></button>
+          <label for="notes">Catatan & hasil kunjungan <span class="optional">opsional</span></label>
+          <textarea id="notes" rows="3" maxlength="6000" placeholder="Kebutuhan, proses bisnis, atau informasi tambahan yang sudah diketahui…"></textarea>
+          <div class="privacy-note"><span>⌾</span><p>Google menerima nama & segmen saja. Data pelanggan diolah oleh LLM di mesin lokal.</p></div>
+          <button type="submit" class="primary-button" id="analyze-button"><span>Riset & buat analisis</span><span>→</span></button>
+          <button type="button" class="secondary-button" id="preview-button">Lihat kerangka tanpa riset</button>
+          <p class="form-note">Kerangka tanpa riset berisi hipotesis sektor.</p>
+        </form>
+      </aside>
+
+      <section class="output-panel" aria-label="Hasil analisis">
+        <div class="output-topline"><div><span class="section-number">02</span><h2>Canvas analisis</h2></div><span class="saved-indicator" id="result-indicator"><span></span> Contoh kerangka</span></div>
+        <div id="progress" class="progress-card" hidden aria-live="polite"><div class="spinner"></div><div><strong id="progress-title">Menyiapkan analisis…</strong><p id="progress-detail">Riset publik → model lokal → validasi struktur</p></div><button type="button" id="cancel-analysis">Batalkan</button></div>
+        <div class="error-card" id="error-card" hidden role="alert"><span>!</span><div><strong>Analisis belum dapat diselesaikan</strong><p id="error-message"></p><button type="button" class="text-button" id="error-guide">Lihat panduan pengaturan →</button></div><button class="close-error" id="close-error" aria-label="Tutup pesan">×</button></div>
+        <div class="dirty-banner" id="dirty-banner" hidden>Data input berubah. Canvas di bawah masih memakai data sebelumnya. Jalankan analisis atau perbarui kerangka.</div>
+
+        <div id="result-content">
+          <article class="company-card"><div class="company-avatar" id="company-avatar">KS</div><div class="company-heading"><div class="company-tags"><span id="company-sector">INDIBIZ RUKO</span><span class="subtle-tag" id="analysis-kind">KERANGKA AWAL</span></div><h2 id="result-company">Memuat profil…</h2><p><span class="pin">⌖</span> <span id="result-witel"></span></p></div><span class="company-card-decoration" aria-hidden="true">→</span></article>
+          <div class="result-tabs"><div role="tablist" aria-label="Tampilan analisis"><button role="tab" aria-selected="true" data-tab="canvas">Peta IVCA</button><button role="tab" aria-selected="false" data-tab="opportunities">Peluang solusi <span id="opportunity-count">0</span></button><button role="tab" aria-selected="false" data-tab="sources">Data & sumber <span id="source-count">0</span></button><button role="tab" aria-selected="false" data-tab="catalog">Katalog resmi <span id="catalog-count">0</span></button></div><div class="export-wrap"><button type="button" id="export-button" class="export-button" aria-expanded="false">↓ <span>Ekspor</span>⌄</button><div class="export-menu" id="export-menu" hidden><button id="export-svg">Diagram SVG</button><button id="export-json">Analisis JSON</button><button id="export-csv">Peluang CSV</button><button id="export-print">Cetak / simpan PDF</button></div></div></div>
+
+          <section id="tab-canvas" role="tabpanel">
+            <div class="canvas-toolbar"><div><span class="small-label">ECOSYSTEM VALUE CHAIN</span><p>Bisnis pelanggan dalam satu pandangan.</p></div><div class="view-toggle" role="group" aria-label="Lapisan diagram"><button class="active" id="activity-view">Aktivitas</button><button id="solution-view">Solusi</button></div></div>
+            <div class="canvas-scroll"><div id="ivca-diagram" class="ivca-diagram"></div></div>
+            <div class="canvas-footer"><div class="legend"><span><i class="dot-customer"></i> Data pelanggan</span><span><i class="dot-public"></i> Sumber publik</span><span><i class="dot-hypothesis"></i> Hipotesis</span></div><span class="canvas-hint">Pilih aktivitas untuk melihat detail →</span></div>
+            <div class="interpretation"><span class="sparkle">✳</span><div><h3>Catatan analisis</h3><p id="overview"></p></div></div>
+            <div class="existing-strip"><div><span class="small-label">LAYANAN DALAM DATA PELANGGAN</span><p>Existing menurut input · belum verifikasi kontrak aktif</p></div><div id="existing-services" class="chips"></div></div>
+          </section>
+
+          <section id="tab-opportunities" role="tabpanel" hidden><div class="section-intro"><span class="small-label">DISCOVERY, SEBELUM PENAWARAN</span><h3>Peluang & produk yang relevan.</h3><p>Kandidat produk dicocokkan dengan katalog Telkom Solution dan IndiBiz. Kebutuhan, paket, harga, dan kontrak aktif tetap perlu dikonfirmasi.</p></div><div id="opportunities-list"></div></section>
+          <section id="tab-catalog" role="tabpanel" hidden><div class="section-intro"><span class="small-label">TELKOM SOLUTION & INDIBIZ</span><h3>Katalog dari sumber resmi.</h3><p>Baca halaman produk sebelum menawarkan solusi. Pembaruan katalog tidak mengirim data pelanggan ke situs-situs ini.</p><button type="button" class="secondary-button" id="refresh-catalog">Perbarui katalog resmi</button><p id="catalog-status" aria-live="polite"></p></div><div id="catalog-list"></div></section>
+          <section id="tab-sources" role="tabpanel" hidden><div class="section-intro"><span class="small-label">JEJAK INFORMASI</span><h3>Kenali dasar setiap kesimpulan.</h3><p>Informasi publik bisa merujuk perusahaan dengan nama serupa. Periksa identitas dan relevansi sumber.</p></div><div id="sources-list"></div><h3 class="data-heading">Data layanan pelanggan</h3><div class="table-scroll"><table><thead><tr><th>GROUP4</th><th>GROUP5</th><th>DESC2</th></tr></thead><tbody id="data-table"></tbody></table></div><div id="customer-notes" class="customer-notes"></div></section>
+          <div class="result-disclaimer" id="result-disclaimer"></div>
+        </div>
+      </section>
+    </div>
+    <footer class="page-footer"><span><strong>rantai.</strong> Dibuat untuk memahami, sebelum menawarkan.</span><span>Kerangka: ToT SME Assistant · IVCA, hlm. 7–10 & 35–36</span></footer>
+  </main>
+
+  <dialog id="detail-dialog"><div class="dialog-header"><div><span class="small-label">DETAIL AKTIVITAS</span><h2 id="detail-title"></h2></div><button data-close="detail-dialog" class="dialog-close" aria-label="Tutup detail">×</button></div><div id="detail-content"></div></dialog>
+
+  <dialog id="import-dialog"><div class="dialog-header"><div><span class="small-label">DATA PELANGGAN</span><h2>Impor tabel</h2></div><button data-close="import-dialog" class="dialog-close" aria-label="Tutup impor">×</button></div><p>Salin tabel dari Excel beserta header atau pilih file CSV/TSV. Sel kosong pada pivot akan mengikuti perusahaan dan grup sebelumnya. Pilih satu perusahaan setelah impor.</p><label class="file-label" for="import-file">↑ Pilih CSV / TSV<input type="file" id="import-file" accept=".csv,.tsv,.txt"></label><label for="import-text">Tabel dengan header</label><textarea id="import-text" rows="9" placeholder="STANDARD_NAME&#9;WITEL_HO&#9;GROUP4&#9;GROUP5&#9;DESC2"></textarea><p class="form-note">Kolom: STANDARD_NAME, WITEL_HO, GROUP4, GROUP5, DESC2.<br>Gambar contoh sudah tersedia di pilihan pelanggan. Unggah gambar/OCR dan XLSX belum didukung.</p><p id="import-error" class="inline-error" role="alert"></p><div id="import-company-choice" hidden><label for="import-company-select">Pilih perusahaan dari tabel</label><select id="import-company-select"></select></div><button class="primary-button" id="parse-import">Baca tabel <span>→</span></button><button class="primary-button" id="apply-import" hidden>Gunakan perusahaan <span>→</span></button></dialog>
+
+  <dialog id="guide-dialog"><div class="dialog-header"><div><span class="small-label">CARA KERJA</span><h2>Dari data, menjadi percakapan.</h2></div><button data-close="guide-dialog" class="dialog-close" aria-label="Tutup panduan">×</button></div><div class="guide-steps"><article><b>01</b><div><h3>Masukkan profil & layanan</h3><p>Pilih salah satu dari lima contoh, atau masukkan nama perusahaan dan tabel layanan. Segmen dipilih secara eksplisit untuk mengurangi salah identitas.</p></div></article><article><b>02</b><div><h3>Temukan informasi publik</h3><p>Google hanya menerima nama dan segmen perusahaan. Aplikasi membaca maksimal lima hasil dan halaman publik yang bisa diakses. CAPTCHA tidak dilewati; kegagalan akses ditampilkan.</p></div></article><article><b>03</b><div><h3>Analisis dengan Ollama lokal</h3><p>Data pelanggan dan kutipan sumber dikirim ke Ollama pada mesin yang sama, bukan ke layanan LLM cloud. Model menyusun aktivitas dan peluang; klaim tanpa kutipan valid ditandai hipotesis.</p></div></article><article><b>04</b><div><h3>Tinjau diagram & konfirmasi</h3><p>Diagram mengikuti ecosystem IVCA pada materi: 4 support, 5 primary activities, dan empat sisi ekosistem. Gunakan pertanyaan discovery sebelum menawarkan solusi.</p></div></article></div><div class="local-setup"><h3>Menjalankan model lokal</h3><p>Pasang Ollama dari sumber resminya, lalu jalankan di terminal pada mesin aplikasi:</p><pre>ollama serve
+# Terminal lain:
+ollama pull qwen2.5:3b</pre><p>Jika memakai model lain, atur <code>OLLAMA_MODEL</code> saat menyalakan aplikasi. Untuk cloud ini, domain <code>www.google.com</code>, <code>registry.ollama.ai</code>, <code>ollama.com</code> dan host unduhan model perlu diizinkan melalui pengaturan lingkungan. <code>scripts/setup-ollama.sh</code> menyediakan pemasangan lokal dengan checksum.</p><p>Scraping menggunakan HTML dan Chromium untuk halaman yang memerlukan JavaScript. Jika Google meminta CAPTCHA, proses dihentikan. Tunggu akses Google pulih lalu jalankan kembali; tidak ada API pencarian berbayar yang digunakan.</p><button id="refresh-status" class="secondary-button">Periksa kembali model</button><p id="guide-runtime" class="form-note"></p></div><div class="guide-note"><strong>Batas interpretasi</strong><p>“Existing” berasal dari tabel pelanggan. “Prospect” adalah hipotesis peluang. Status “Win”, nilai wallet share, dan kondisi operasional tidak ditetapkan tanpa bukti. Pemetaan produk pada diagram merupakan usulan untuk dikonfirmasi.</p></div></dialog>
+  <div id="toast" role="status" hidden></div>
+</body>
+</html>

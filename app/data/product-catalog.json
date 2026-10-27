@@ -1,0 +1,958 @@
+{
+  "status": "partial",
+  "products": [
+    {
+      "id": "P-bea20221485b7ed8",
+      "name": "Solusi Manajemen Infrastruktur Digital End‑to‑End",
+      "description": "Tingkatkan efisiensi TI bisnis Anda dengan layanan manajemen infrastruktur digital dari Telkom Solution: cloud, jaringan, keamanan & support terpadu. | Telkom Solution",
+      "source_url": "https://www.telkomsolution.co.id/produk/manajemen-infrastruktur-digital",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_solution_page",
+      "evidence_quote": "Tingkatkan efisiensi TI bisnis Anda dengan layanan manajemen infrastruktur digital dari Telkom Solution: cloud, jaringan, keamanan & support terpadu. | Telkom Solution",
+      "aliases": [
+        "manajemen-infrastruktur-digital"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-5cd11a998720ac7e",
+      "name": "Platform Layanan Cloud (IaaS / PaaS / SaaS) untuk Enterprise",
+      "description": "Solusi Cloud dari Telkom Solution menyediakan IaaS, PaaS dan SaaS dengan paket elastis untuk kebutuhan enterprise – termonitor, aman, dan scalable. | Telkom Solution",
+      "source_url": "https://www.telkomsolution.co.id/produk/cloud-platform-iaas-paas-saas",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_solution_page",
+      "evidence_quote": "Solusi Cloud dari Telkom Solution menyediakan IaaS, PaaS dan SaaS dengan paket elastis untuk kebutuhan enterprise – termonitor, aman, dan scalable. | Telkom Solution",
+      "aliases": [
+        "cloud-platform-iaas-paas-saas"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-5be8e0b60aea4a81",
+      "name": "Layanan Big Data & Analytics untuk Transformasi Bisnis",
+      "description": "Metode big data dan analytics dari Telkom Solution bantu organisasi optimalkan keputusan bisnis berbasis data real‑time dan insight actionable. | Telkom Solution",
+      "source_url": "https://www.telkomsolution.co.id/produk/big-data-dan-analytics",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_solution_page",
+      "evidence_quote": "Metode big data dan analytics dari Telkom Solution bantu organisasi optimalkan keputusan bisnis berbasis data real‑time dan insight actionable. | Telkom Solution",
+      "aliases": [
+        "big-data-dan-analytics"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-0a6dd30e0cba3e6b",
+      "name": "Solusi Layanan Mobile untuk Menunjang Bisnis",
+      "description": "Nikmati layanan mobile Telkom Solution yang mendukung komunikasi dan mobilitas bisnis Anda kapan pun. | Telkom Solution",
+      "source_url": "https://www.telkomsolution.co.id/produk/mobile-service",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_solution_page",
+      "evidence_quote": "Nikmati layanan mobile Telkom Solution yang mendukung komunikasi dan mobilitas bisnis Anda kapan pun. | Telkom Solution",
+      "aliases": [
+        "mobile-service"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-b51dbe6a2da89070",
+      "name": "Cyber Security & Managed Services Terintegrasi",
+      "description": "Layanan cyber security Telkom Solution meliputi managed firewall, monitoring 24/7, dan layanan keamanan end‑to‑end untuk perlindungan bisnis anda. | Telkom Solution",
+      "source_url": "https://www.telkomsolution.co.id/produk/cyber-security-managed-services",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_solution_page",
+      "evidence_quote": "Layanan cyber security Telkom Solution meliputi managed firewall, monitoring 24/7, dan layanan keamanan end‑to‑end untuk perlindungan bisnis anda. | Telkom Solution",
+      "aliases": [
+        "cyber-security-managed-services"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-36c3e034a3a4976c",
+      "name": "Digital Advisory & IT Consulting",
+      "description": "Telkom Solution menawarkan layanan konsultasi transformasi digital — advisory, assessment & perencanaan TI untuk mendukung strategi bisnis masa depan. | Telkom Solution",
+      "source_url": "https://www.telkomsolution.co.id/produk/konsultasi-digital-it-advisory",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_solution_page",
+      "evidence_quote": "Telkom Solution menawarkan layanan konsultasi transformasi digital — advisory, assessment & perencanaan TI untuk mendukung strategi bisnis masa depan. | Telkom Solution",
+      "aliases": [
+        "konsultasi-digital-it-advisory"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-20cc8ee18b69088d",
+      "name": "AI Medical Scribe",
+      "description": "AI Medical Scribe mendukung tenaga medis dengan mencatat percakapan dokter-pasien secara otomatis, menyusun rekam medis lengkap, menghemat waktu, dan meminimalisir human error. Integrasi mudah dalam sistem rumah sakit Anda mempercepat proses administrasi.",
+      "source_url": "https://indibiz.co.id/produk/ai-medical-scribe",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "AI Medical Scribe mendukung tenaga medis dengan mencatat percakapan dokter-pasien secara otomatis, menyusun rekam medis lengkap, menghemat waktu, dan meminimalisir human error. Integrasi mudah dalam sistem rumah sakit Anda mempercepat proses administrasi.",
+      "aliases": [
+        "ai-medical-scribe"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-10aab8ee3088817f",
+      "name": "AI OCR Checking",
+      "description": "Sistem verifikasi dan validasi dokumen medis otomatis menggunakan OCR dan AI untuk meningkatkan akurasi dalam pemeriksaan dokumen klaim, rekam medis, dan berkas medis lainnya dengan kecepatan tinggi dan tingkat akurasi yang konsisten.",
+      "source_url": "https://indibiz.co.id/produk/ai-ocr-checking",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Sistem verifikasi dan validasi dokumen medis otomatis menggunakan OCR dan AI untuk meningkatkan akurasi dalam pemeriksaan dokumen klaim, rekam medis, dan berkas medis lainnya dengan kecepatan tinggi dan tingkat akurasi yang konsisten.",
+      "aliases": [
+        "ai-ocr-checking"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-65c595d5b9918a08",
+      "name": "ASTINet Lite",
+      "description": "Astinet Lite menyediakan koneksi dedicated asimetris 1:4 untuk kebutuhan bisnis dengan akses stabil dan andal. Cocok untuk SME seperti Small Office, Warnet & bisnis lainnya yang membutuhkan IP statik.",
+      "source_url": "https://indibiz.co.id/produk/astinetlites",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Astinet Lite menyediakan koneksi dedicated asimetris 1:4 untuk kebutuhan bisnis dengan akses stabil dan andal. Cocok untuk SME seperti Small Office, Warnet & bisnis lainnya yang membutuhkan IP statik.",
+      "aliases": [
+        "astinetlites"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-53070d5116c528c5",
+      "name": "PlayUp",
+      "description": "PlayUp by Langit Musik adalah platform streaming musik yang legal dengan ambient yang dikurasi secara khusus untuk kebutuhan ruang komersial, seperti: Kafe dan restoran,Toko ritel dan pusat perbelanjaan, Kantor dan ruang kerja bersama (co-working space) Hotel dan lain lain yang memang di fungsikan sebagai ruang publik",
+      "source_url": "https://indibiz.co.id/produk/playup",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "PlayUp by Langit Musik adalah platform streaming musik yang legal dengan ambient yang dikurasi secara khusus untuk kebutuhan ruang komersial, seperti: Kafe dan restoran,Toko ritel dan pusat perbelanjaan, Kantor dan ruang kerja bersama (co-working space) Hotel dan lain lain yang memang di fungsikan sebagai ruang publik",
+      "aliases": [
+        "playup"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-53dd1d170470a3b8",
+      "name": "Manpro",
+      "description": "Buat bisnis Anda semakin seamless dengan pengelolaan dokumen melalui Manpro Digital Office. Mulai dari mengunggah dokumen, tanda tangan, mengulas dokumen, hingga pembubuhan digital sign lewat satu platform. Anda dapat melakukannya dari mana saja dan kapan saja!",
+      "source_url": "https://indibiz.co.id/produk/manpro",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Buat bisnis Anda semakin seamless dengan pengelolaan dokumen melalui Manpro Digital Office. Mulai dari mengunggah dokumen, tanda tangan, mengulas dokumen, hingga pembubuhan digital sign lewat satu platform. Anda dapat melakukannya dari mana saja dan kapan saja!",
+      "aliases": [
+        "manpro"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-39cd1a004dd83fda",
+      "name": "Zoom",
+      "description": "Di setiap katalog langganan Zoom, Anda otomatis mendapatkan fitur AI Companion yang dirancang khusus untuk meningkatkan produktivitas kerja dan kolaborasi tim dengan kemudahan dan kenyamanan Anda.",
+      "source_url": "https://indibiz.co.id/produk/zoom",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Di setiap katalog langganan Zoom, Anda otomatis mendapatkan fitur AI Companion yang dirancang khusus untuk meningkatkan produktivitas kerja dan kolaborasi tim dengan kemudahan dan kenyamanan Anda.",
+      "aliases": [
+        "zoom"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-488c02efd4413c82",
+      "name": "Accounting+",
+      "description": "Accounting+ adalah aplikasi akuntansi berbasis cloud dengan AI Assistant dari RUN System. Memudahkan pencatatan transaksi, pengelolaan keuangan, dan pembuatan laporan secara otomatis, cepat, dan akurat. Fleksibel untuk berbagai kebutuhan industri dan terintegrasi.",
+      "source_url": "https://indibiz.co.id/produk/accounting-plus-aplikasi-laporan-keuangan",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Accounting+ adalah aplikasi akuntansi berbasis cloud dengan AI Assistant dari RUN System. Memudahkan pencatatan transaksi, pengelolaan keuangan, dan pembuatan laporan secara otomatis, cepat, dan akurat. Fleksibel untuk berbagai kebutuhan industri dan terintegrasi.",
+      "aliases": [
+        "accounting-plus-aplikasi-laporan-keuangan"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-f384316b18e6a88a",
+      "name": "BigBox - BigSocial Social Media Analytics",
+      "description": "BigSocial adalah platform analitik media sosial cerdas yang memungkinkan bisnis dan institusi mengidentifikasi tren, menganalisis sentimen, dan memahami interaksi audiens secara real-time, mendukung keputusan yang lebih presisi dan berbasis data",
+      "source_url": "https://indibiz.co.id/produk/bigsocial-social-media-analytics",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "BigSocial adalah platform analitik media sosial cerdas yang memungkinkan bisnis dan institusi mengidentifikasi tren, menganalisis sentimen, dan memahami interaksi audiens secara real-time, mendukung keputusan yang lebih presisi dan berbasis data",
+      "aliases": [
+        "bigsocial-social-media-analytics"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-c768a3d4390f4925",
+      "name": "Upoint Reseller",
+      "description": "UPoint Reseller adalah platform untuk membantu reseller menjual voucher dan item game. Dengan fitur website custom, dashboard penjualan, dan marketing kit, platform ini mempermudah reseller dalam mengelola bisnis. Cocok untuk berbagai jenis bisnis, seperti pengusaha mikro, warnet, komunitas gamer, toko retail, dan kafe.",
+      "source_url": "https://indibiz.co.id/produk/upoint-reseller",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "UPoint Reseller adalah platform untuk membantu reseller menjual voucher dan item game. Dengan fitur website custom, dashboard penjualan, dan marketing kit, platform ini mempermudah reseller dalam mengelola bisnis. Cocok untuk berbagai jenis bisnis, seperti pengusaha mikro, warnet, komunitas gamer, toko retail, dan kafe.",
+      "aliases": [
+        "upoint-reseller"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-d0fa6061a9967963",
+      "name": "VPN IP Netmonk",
+      "description": "Solusi monitoring jaringan yang dapat mengakuisisi data dari berbagai perangkat jaringan secara otomatis dan mendukung visualisasi data dalam bentuk dashboard analitik berbasis web. Netmonk memiliki produk monitoring layanan IP Static dan IP Dynamic, serta dashboard Netmonk Hi yang dapat membantu Tim Operasional IT di perusahaan.",
+      "source_url": "https://indibiz.co.id/produk/vpn-ip-netmonk",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Solusi monitoring jaringan yang dapat mengakuisisi data dari berbagai perangkat jaringan secara otomatis dan mendukung visualisasi data dalam bentuk dashboard analitik berbasis web. Netmonk memiliki produk monitoring layanan IP Static dan IP Dynamic, serta dashboard Netmonk Hi yang dapat membantu Tim Operasional IT di perusahaan.",
+      "aliases": [
+        "vpn-ip-netmonk"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-86a7712c3c7aab29",
+      "name": "VPN IP Dual Homing",
+      "description": "Fitur Dual Homing VPN IP merupakan service enhancement dari layanan VPN IP, yang menyediakan kapabilitas dual homing (access diversity) dengan jaminan SLG yang lebih tinggi (high reliability services).",
+      "source_url": "https://indibiz.co.id/produk/vpn-ip-dual-homing",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Fitur Dual Homing VPN IP merupakan service enhancement dari layanan VPN IP, yang menyediakan kapabilitas dual homing (access diversity) dengan jaminan SLG yang lebih tinggi (high reliability services).",
+      "aliases": [
+        "vpn-ip-dual-homing"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-f483f10d545af649",
+      "name": "neuCentrIX Interconnect",
+      "description": "Layanan connectivity antar Data Center neuCentrIX yang berbasis untuk pelanggan yang melakukan kolokasi pada Data Center neuCentrIX. neuCentrIX Interconnect diperuntukan bagi pelanggan yang membutuhkan konektivitas antar Data Center. Menyediakan high capacity data network solution yang memberikan flexibility, simplicity, dan effectiveness",
+      "source_url": "https://indibiz.co.id/produk/neucentrix-interconnect",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Layanan connectivity antar Data Center neuCentrIX yang berbasis untuk pelanggan yang melakukan kolokasi pada Data Center neuCentrIX. neuCentrIX Interconnect diperuntukan bagi pelanggan yang membutuhkan konektivitas antar Data Center. Menyediakan high capacity data network solution yang memberikan flexibility, simplicity, dan effectiveness",
+      "aliases": [
+        "neucentrix-interconnect"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-ede9010133181ea3",
+      "name": "Metro Ethernet NeuCentrIX",
+      "description": "Metro Ethernet dengan paket dan tarif khusus bagi pelanggan yang telah berlangganan Data Center neuCentrIX. Menyediakan layanan high capacity data network solution berbasis IP/Ethernet dengan enhancement Big Pipe (bandwidth up to 10 Gbps), penambahan fitur Mac Address dan Jumbo Frame.",
+      "source_url": "https://indibiz.co.id/produk/metro-ethernet-neucentrix",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Metro Ethernet dengan paket dan tarif khusus bagi pelanggan yang telah berlangganan Data Center neuCentrIX. Menyediakan layanan high capacity data network solution berbasis IP/Ethernet dengan enhancement Big Pipe (bandwidth up to 10 Gbps), penambahan fitur Mac Address dan Jumbo Frame.",
+      "aliases": [
+        "metro-ethernet-neucentrix"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-b38b81e92e25f457",
+      "name": "Metro Ethernet Dual Homing",
+      "description": "Service enhancement dari produk layanan Metro-E, yang menyediakan kapabilitas dual homing (access diversity) yang terdiri dari Main dan Backup, dengan jaminan SLG yang lebih tinggi (high reliability services).",
+      "source_url": "https://indibiz.co.id/produk/metro-ethernet-dual-homing",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Service enhancement dari produk layanan Metro-E, yang menyediakan kapabilitas dual homing (access diversity) yang terdiri dari Main dan Backup, dengan jaminan SLG yang lebih tinggi (high reliability services).",
+      "aliases": [
+        "metro-ethernet-dual-homing"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-4d422a318e57c35a",
+      "name": "DIGIDES",
+      "description": "DIGIDES adalah platform transformasi digital untuk desa, menyediakan solusi teknologi untuk meningkatkan pelayanan publik dan akses informasi. Dengan fitur Smart Village yang inovatif, DIGIDES mendukung desa dalam mewujudkan layanan publik yang lebih cepat, efektif, dan berbasis digital.",
+      "source_url": "https://indibiz.co.id/produk/digital-desa",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "DIGIDES adalah platform transformasi digital untuk desa, menyediakan solusi teknologi untuk meningkatkan pelayanan publik dan akses informasi. Dengan fitur Smart Village yang inovatif, DIGIDES mendukung desa dalam mewujudkan layanan publik yang lebih cepat, efektif, dan berbasis digital.",
+      "aliases": [
+        "digital-desa"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-a52b7cda3b458779",
+      "name": "Netmonk Prime",
+      "description": "Optimalkan operasional bisnis dengan Netmonk! Antisipasi kendala jaringan, server, dan Web API secara real time lewat solusi all-in-one monitoring Netmonk. Bisnis semakin lancar dan berkembang!",
+      "source_url": "https://indibiz.co.id/produk/netmonk-prime",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Optimalkan operasional bisnis dengan Netmonk! Antisipasi kendala jaringan, server, dan Web API secara real time lewat solusi all-in-one monitoring Netmonk. Bisnis semakin lancar dan berkembang!",
+      "aliases": [
+        "netmonk-prime"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-e2bf000b7f0bcc05",
+      "name": "Mesh Wifi",
+      "description": "Mesh Wifi merupakan solusi perluasan coverage Wifi bagi pelanggan HSI atau WMS Lite berupa penambahan perangkat di lokasinya dengan experience seamless roaming ketika berpindah ruangan dan kemudahan dalam mengoperasikan.",
+      "source_url": "https://indibiz.co.id/produk/mesh-wifi",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Mesh Wifi merupakan solusi perluasan coverage Wifi bagi pelanggan HSI atau WMS Lite berupa penambahan perangkat di lokasinya dengan experience seamless roaming ketika berpindah ruangan dan kemudahan dalam mengoperasikan.",
+      "aliases": [
+        "mesh-wifi"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-ea939caed6a47a10",
+      "name": "SL WDM",
+      "description": "Layanan High Capacity Data Network Solution untuk kebutuhan bandwidth besar dan dedicated yang fleksibel, simple, dan aman dengan jaringan berbasis teknologi WDM, dengan enhancement penambahan range jarak layanan hingga >2500 km, penambahan paket layanan (paket Unprotected, Big Pipe s/d 100 Gbps), dan simplifikasi proses FAB.",
+      "source_url": "https://indibiz.co.id/produk/sl-wdm",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Layanan High Capacity Data Network Solution untuk kebutuhan bandwidth besar dan dedicated yang fleksibel, simple, dan aman dengan jaringan berbasis teknologi WDM, dengan enhancement penambahan range jarak layanan hingga >2500 km, penambahan paket layanan (paket Unprotected, Big Pipe s/d 100 Gbps), dan simplifikasi proses FAB.",
+      "aliases": [
+        "sl-wdm"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-1a68cb135e27a3c8",
+      "name": "SIP Trunk",
+      "description": "Layanan voice trunking berbasis IP dengan memanfaatkan protokol SIP (Session Initiation Protocol)",
+      "source_url": "https://indibiz.co.id/produk/sip-trunk",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Layanan voice trunking berbasis IP dengan memanfaatkan protokol SIP (Session Initiation Protocol)",
+      "aliases": [
+        "sip-trunk"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-ad9cc1d687efba54",
+      "name": "neuCentrix",
+      "description": "neuCentrIX adalah layanan one stop service yang menyediakan solusi untuk pelanggan yang tidak hanya membutuhkan layanan kolokasi tetapi membutuhkan layanan connectivity yang andal. neuCentrIX diposisikan untuk melayani komunitas internet (ISP, content provider, hosting provider, web server, mail server dan aplikasi internet lainnya).",
+      "source_url": "https://indibiz.co.id/produk/neucentrix",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "neuCentrIX adalah layanan one stop service yang menyediakan solusi untuk pelanggan yang tidak hanya membutuhkan layanan kolokasi tetapi membutuhkan layanan connectivity yang andal. neuCentrIX diposisikan untuk melayani komunitas internet (ISP, content provider, hosting provider, web server, mail server dan aplikasi internet lainnya).",
+      "aliases": [
+        "neucentrix"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-20e8c3135af5034f",
+      "name": "Managed SD-WAN Service",
+      "description": "Managed SD-WAN Service adalah layanan integrated Managed Wide Area Network berbasis teknologi Software-Defined yang memberikan end-to-end quality of experience services to customer dengan mengintegrasikan Telkom connectivity, customer premise, dan web portal.",
+      "source_url": "https://indibiz.co.id/produk/sd-wan",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Managed SD-WAN Service adalah layanan integrated Managed Wide Area Network berbasis teknologi Software-Defined yang memberikan end-to-end quality of experience services to customer dengan mengintegrasikan Telkom connectivity, customer premise, dan web portal.",
+      "aliases": [
+        "sd-wan"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-5cff65659134cd03",
+      "name": "Metro Ethernet",
+      "description": "Metro Ethernet adalah layanan high capacity data network solution berbasis IP/Ethernet yang memberikan flexibility, simplicity, effectiveness, serta penambahan fitur MAC Address dan Jumbo Frame. Dilengkapi dengan fitur dual homing (access diversity), jaminan keamanan data, reliability, sistem monitoring dan assurance 24 jam.",
+      "source_url": "https://indibiz.co.id/produk/metro-ethernet",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Metro Ethernet adalah layanan high capacity data network solution berbasis IP/Ethernet yang memberikan flexibility, simplicity, effectiveness, serta penambahan fitur MAC Address dan Jumbo Frame. Dilengkapi dengan fitur dual homing (access diversity), jaminan keamanan data, reliability, sistem monitoring dan assurance 24 jam.",
+      "aliases": [
+        "metro-ethernet"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-986d56e6092fbf37",
+      "name": "VPN IP",
+      "description": "VPN IP merupakan layanan komunikasi data any to any connection berbasis IP Multi Protocol Label Switching (MPLS), dan memungkinkan perusahaan membuat jaringan private IP dengan koneksi any to any dalam cakupan nasional untuk menghubungkan cabang-cabangnya di berbagai kota.",
+      "source_url": "https://indibiz.co.id/produk/vpn-ip",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "VPN IP merupakan layanan komunikasi data any to any connection berbasis IP Multi Protocol Label Switching (MPLS), dan memungkinkan perusahaan membuat jaringan private IP dengan koneksi any to any dalam cakupan nasional untuk menghubungkan cabang-cabangnya di berbagai kota.",
+      "aliases": [
+        "vpn-ip"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-079be2b406e9a91a",
+      "name": "Antares Eazy CCTV",
+      "description": "Jaga bisnis tetap aman dengan solusi Antares Eazy CCTV yang mudah dipantau kapan saja. Pilih perangkat IP Camera untuk memantau area usaha, baik di dalam maupun luar ruangan secara real-time. Dukung keamanan dan ketenangan dalam menjalankan bisnis Anda.",
+      "source_url": "https://indibiz.co.id/produk/antares-eazy-cctv",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Jaga bisnis tetap aman dengan solusi Antares Eazy CCTV yang mudah dipantau kapan saja. Pilih perangkat IP Camera untuk memantau area usaha, baik di dalam maupun luar ruangan secara real-time. Dukung keamanan dan ketenangan dalam menjalankan bisnis Anda.",
+      "aliases": [
+        "antares-eazy-cctv"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-17e57b463478d09c",
+      "name": "OCA Blast Lite",
+      "description": "Layanan broadcast promosi dari OCA kini bisa disesuaikan dengan kebutuhan usahamu. OCA Blast Lite hadir untuk membantu UMKM melakukan promosi yang lebih hemat dan efisien melalui pesan Whatsapp & SMS! Tidak perlu akses aplikasi, cukup login ke website OCA di mana saja dan kapan saja. Promosikan usahamu sekarang!",
+      "source_url": "https://indibiz.co.id/produk/oca-blast-lite",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Layanan broadcast promosi dari OCA kini bisa disesuaikan dengan kebutuhan usahamu. OCA Blast Lite hadir untuk membantu UMKM melakukan promosi yang lebih hemat dan efisien melalui pesan Whatsapp & SMS! Tidak perlu akses aplikasi, cukup login ke website OCA di mana saja dan kapan saja. Promosikan usahamu sekarang!",
+      "aliases": [
+        "oca-blast-lite"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-486d45cfee3c423f",
+      "name": "OCA Interaction Lite",
+      "description": "Tingkatkan kepuasan pelanggan Anda sekarang! Kini berinteraksi dengan pelanggan melalui banyak media sosial bisa dilakukan lewat satu dashboard. Dengan menggunakan OCA Interaction Lite, bisnis Anda dapat memaksimalkan pelayanan dan aktivitas dari mana saja dan kapan saja dalam satu dashboard untuk semua pesan dari Facebook & Instagram.",
+      "source_url": "https://indibiz.co.id/produk/oca-interaction-lite-prepaid",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Tingkatkan kepuasan pelanggan Anda sekarang! Kini berinteraksi dengan pelanggan melalui banyak media sosial bisa dilakukan lewat satu dashboard. Dengan menggunakan OCA Interaction Lite, bisnis Anda dapat memaksimalkan pelayanan dan aktivitas dari mana saja dan kapan saja dalam satu dashboard untuk semua pesan dari Facebook & Instagram.",
+      "aliases": [
+        "oca-interaction-lite-prepaid"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-b8b1b6de6f53670a",
+      "name": "Microsoft 365 for Education",
+      "description": "Microsoft 365 for Education memberikan akses penuh ke aplikasi produktivitas Microsoft berbasis cloud seperti Word, Excel, PowerPoint, Outlook, Teams, SharePoint, OneDrive, dan lainnya. Tingkatkan produktivitas, efektivitas kolaborasi dan pembelajaran kapan dan di mana saja. Silakan klik \"Konsultasi Sekarang\" untuk informasi lebih lanjut.",
+      "source_url": "https://indibiz.co.id/produk/maintenance/microsoft-365-for-education",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Microsoft 365 for Education memberikan akses penuh ke aplikasi produktivitas Microsoft berbasis cloud seperti Word, Excel, PowerPoint, Outlook, Teams, SharePoint, OneDrive, dan lainnya. Tingkatkan produktivitas, efektivitas kolaborasi dan pembelajaran kapan dan di mana saja. Silakan klik \"Konsultasi Sekarang\" untuk informasi lebih lanjut.",
+      "aliases": [
+        "microsoft-365-for-education"
+      ],
+      "availability": "maintenance"
+    },
+    {
+      "id": "P-47fbe2a4f80ec2d9",
+      "name": "Mitra Finpay",
+      "description": "Mitra Finpay adalah aplikasi manajemen merchant yang memungkinkan UKM dan UMKM mengelola transaksi QRIS dengan mudah. Selain itu, Anda dapat melakukan penjualan berbagai biller langsung dalam aplikasi. Dapatkan kontrol penuh atas penjualan, laporan keuangan, dan analisis bisnis dalam satu platform user-friendly.",
+      "source_url": "https://indibiz.co.id/produk/finpay",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Mitra Finpay adalah aplikasi manajemen merchant yang memungkinkan UKM dan UMKM mengelola transaksi QRIS dengan mudah. Selain itu, Anda dapat melakukan penjualan berbagai biller langsung dalam aplikasi. Dapatkan kontrol penuh atas penjualan, laporan keuangan, dan analisis bisnis dalam satu platform user-friendly.",
+      "aliases": [
+        "finpay"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-94eb15b9a11b1382",
+      "name": "Pijar Sekolah",
+      "description": "Kegiatan belajar mengajar di sekolah jadi lebih mudah & menyenangkan dengan Pijar Sekolah! Operasional sekolah pun menjadi lebih efektif & efisien dengan hadirnya fitur yang menawarkan berbagai kemudahan dan keunggulan, mulai dari latihan, evaluasi soal, hingga administrasi sekolah dapat diakses dan digunakan dalam satu platform!",
+      "source_url": "https://indibiz.co.id/produk/pijar-sekolah",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Kegiatan belajar mengajar di sekolah jadi lebih mudah & menyenangkan dengan Pijar Sekolah! Operasional sekolah pun menjadi lebih efektif & efisien dengan hadirnya fitur yang menawarkan berbagai kemudahan dan keunggulan, mulai dari latihan, evaluasi soal, hingga administrasi sekolah dapat diakses dan digunakan dalam satu platform!",
+      "aliases": [
+        "pijar-sekolah"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-70827a225c44db19",
+      "name": "Instagram & Facebook Social Media Campaign",
+      "description": "Social Media Campaign Uzone.id merupakan layanan periklanan Meta (Instagram & Facebook) yang membantu mencapai tujuan pemasaran dengan lebih mudah dan efisien. Dapatkan insight mendalam tentang perilaku dan preferensi konsumen di Indonesia. Klik \"Konsultasi Sekarang\" & mulai tingkatkan performa bisnis dengan kampanye iklan yang menarik!",
+      "source_url": "https://indibiz.co.id/produk/uzone",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Social Media Campaign Uzone.id merupakan layanan periklanan Meta (Instagram & Facebook) yang membantu mencapai tujuan pemasaran dengan lebih mudah dan efisien. Dapatkan insight mendalam tentang perilaku dan preferensi konsumen di Indonesia. Klik \"Konsultasi Sekarang\" & mulai tingkatkan performa bisnis dengan kampanye iklan yang menarik!",
+      "aliases": [
+        "uzone"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-fd465adb465fdbcd",
+      "name": "Voucher Loyalty",
+      "description": "Solusi hadiah yang dapat Anda gunakan untuk memberi apresiasi pada karyawan, customer, ataupun klien. Tadakado dapat ditukar ke lebih dari 1.000 katalog item fisik, digital serta langsung digunakan untuk pembayaran QRIS di seluruh Indonesia. Dengan segala fleksibilitasnya, berikan penghargaan dan insentif yang mudah dengan Tadakado. Klik \"Konsultasi Sekarang\" untuk memahami produk lebih lanjut.",
+      "source_url": "https://indibiz.co.id/produk/voucher-loyalty",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Solusi hadiah yang dapat Anda gunakan untuk memberi apresiasi pada karyawan, customer, ataupun klien. Tadakado dapat ditukar ke lebih dari 1.000 katalog item fisik, digital serta langsung digunakan untuk pembayaran QRIS di seluruh Indonesia. Dengan segala fleksibilitasnya, berikan penghargaan dan insentif yang mudah dengan Tadakado. Klik \"Konsultasi Sekarang\" untuk memahami produk lebih lanjut.",
+      "aliases": [
+        "voucher-loyalty"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-431cd380f0962114",
+      "name": "Xooply White Label B2B Commerce",
+      "description": "Xooply merupakan layanan pembuatan website e-commerce untuk usaha mikro, kecil, dan menengah. Melalui model “Pay as You Go” Anda tidak perlu melakukan pengeluaran yang besar untuk membuat website e-commerce. Klik \"Konsultasi Sekarang\" untuk memahami produk lebih lanjut.",
+      "source_url": "https://indibiz.co.id/produk/xooply-whitelabel",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Xooply merupakan layanan pembuatan website e-commerce untuk usaha mikro, kecil, dan menengah. Melalui model “Pay as You Go” Anda tidak perlu melakukan pengeluaran yang besar untuk membuat website e-commerce. Klik \"Konsultasi Sekarang\" untuk memahami produk lebih lanjut.",
+      "aliases": [
+        "xooply-whitelabel"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-d27f989908448d23",
+      "name": "Flou ECS",
+      "description": "Layanan komputasi awan yang menyediakan infrastruktur IT berupa CPU dan RAM. Komponen tersebut dapat digunakan untuk membangun virtual server atau instance dimana di dalamnya dapat diinstal Sistem Operasi dan aplikasi sesuai kebutuhan.",
+      "source_url": "https://indibiz.co.id/produk/flou-cloud-ecs",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Layanan komputasi awan yang menyediakan infrastruktur IT berupa CPU dan RAM. Komponen tersebut dapat digunakan untuk membangun virtual server atau instance dimana di dalamnya dapat diinstal Sistem Operasi dan aplikasi sesuai kebutuhan.",
+      "aliases": [
+        "flou-cloud-ecs"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-9c0c4f808b01c623",
+      "name": "Aplikasi Koperasi ISSO",
+      "description": "Aplikasi Core Banking Koperasi merupakan solusi terintegrasi untuk memudahkan pengelolaan simpan pinjam dan administrasi koperasi. Dilengkapi laporan keuangan real-time, monitoring kredit macet, pencatatan inventaris, serta payroll untuk mendukung operasional koperasi yang lebih efisien.",
+      "source_url": "https://indibiz.co.id/produk/koperasi-isso",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Aplikasi Core Banking Koperasi merupakan solusi terintegrasi untuk memudahkan pengelolaan simpan pinjam dan administrasi koperasi. Dilengkapi laporan keuangan real-time, monitoring kredit macet, pencatatan inventaris, serta payroll untuk mendukung operasional koperasi yang lebih efisien.",
+      "aliases": [
+        "koperasi-isso"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-2e48b9da4c9d19f3",
+      "name": "Aplikasi Kasir (POS) ISSO",
+      "description": "Kelola transaksi dan pantau bisnis lebih praktis dengan Aplikasi Kasir ISSO. Catat penjualan dan pembelian, pantau laporan real-time, laba rugi, stok, hingga keuangan cabang dalam satu solusi, sehingga pengelolaan bisnis menjadi lebih efisien dan mudah.",
+      "source_url": "https://indibiz.co.id/produk/pos-isso",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Kelola transaksi dan pantau bisnis lebih praktis dengan Aplikasi Kasir ISSO. Catat penjualan dan pembelian, pantau laporan real-time, laba rugi, stok, hingga keuangan cabang dalam satu solusi, sehingga pengelolaan bisnis menjadi lebih efisien dan mudah.",
+      "aliases": [
+        "pos-isso"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-c7f808b238ed472f",
+      "name": "Jasa Pengelolaan SPT Masa Bulanan",
+      "description": "Kelola pajak bisnis lebih praktis bersama Pajak.io. Nikmati solusi terintegrasi untuk menghitung, melaporkan, dan membayar SPT bulanan dengan lebih efisien dan sesuai regulasi, plus bonus pengelolaan SPT tahunan untuk kebutuhan pajak bisnis yang lebih lengkap.",
+      "source_url": "https://indibiz.co.id/produk/spt-masa-bulanan-pajakio",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Kelola pajak bisnis lebih praktis bersama Pajak.io. Nikmati solusi terintegrasi untuk menghitung, melaporkan, dan membayar SPT bulanan dengan lebih efisien dan sesuai regulasi, plus bonus pengelolaan SPT tahunan untuk kebutuhan pajak bisnis yang lebih lengkap.",
+      "aliases": [
+        "spt-masa-bulanan-pajakio"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-3dd371843e01443b",
+      "name": "Platform Influencer TikTok",
+      "description": "Temukan influencer TikTok yang tepat dan jangkau target audiens secara lebih terarah dengan InfluenceID. Pilih berdasarkan usia, jenis kelamin, dan lokasi, lalu pantau performa campaign dalam satu platform untuk meningkatkan engagement, penjualan, dan peluang konten menjadi viral.",
+      "source_url": "https://indibiz.co.id/produk/influencer-tiktok",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Temukan influencer TikTok yang tepat dan jangkau target audiens secara lebih terarah dengan InfluenceID. Pilih berdasarkan usia, jenis kelamin, dan lokasi, lalu pantau performa campaign dalam satu platform untuk meningkatkan engagement, penjualan, dan peluang konten menjadi viral.",
+      "aliases": [
+        "influencer-tiktok"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-a9dff18d1f703842",
+      "name": "Platform Influencer Instagram",
+      "description": "Tingkatkan brand awareness, engagement, dan penjualan bisnis Anda dengan Instagram influencer marketing dari InfluenceID. Temukan influencer yang paling sesuai melalui segmentasi umur, jenis kelamin, dan lokasi. Anda juga dapat memantau performa campaign dengan mudah dalam satu platform.",
+      "source_url": "https://indibiz.co.id/produk/influencer-instagram",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Tingkatkan brand awareness, engagement, dan penjualan bisnis Anda dengan Instagram influencer marketing dari InfluenceID. Temukan influencer yang paling sesuai melalui segmentasi umur, jenis kelamin, dan lokasi. Anda juga dapat memantau performa campaign dengan mudah dalam satu platform.",
+      "aliases": [
+        "influencer-instagram"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-8f03fa670cac4af1",
+      "name": "Maintenance Healthical",
+      "description": "Maintenance Healthical merupakan layanan pemeliharaan aplikasi untuk memastikan keberlanjutan penggunaan Healthical pada tahun kedua. Layanan ini tersedia untuk seluruh varian Healthical, mulai dari Healthical Lite, Care, Plus, hingga Max, sesuai kebutuhan operasional klinik.",
+      "source_url": "https://indibiz.co.id/produk/maintenance-healthical",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Maintenance Healthical merupakan layanan pemeliharaan aplikasi untuk memastikan keberlanjutan penggunaan Healthical pada tahun kedua. Layanan ini tersedia untuk seluruh varian Healthical, mulai dari Healthical Lite, Care, Plus, hingga Max, sesuai kebutuhan operasional klinik.",
+      "aliases": [
+        "maintenance-healthical"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-bae12299be295c62",
+      "name": "Jasa Pengelolaan Pajak SPT Tahunan",
+      "description": "Ingin fokus bisnis tanpa ribet urus administrasi pajak? Jasa Pengelolaan Pajak SPT Tahunan siap bantu hitung, bayar, dan lapor pajak bisnis Anda dengan mudah. Klik \"Pilih Paket\" dan nikmati solusi pajak praktis!",
+      "source_url": "https://indibiz.co.id/produk/jasa-pengelolaan-pajak-by-pajakio",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Ingin fokus bisnis tanpa ribet urus administrasi pajak? Jasa Pengelolaan Pajak SPT Tahunan siap bantu hitung, bayar, dan lapor pajak bisnis Anda dengan mudah. Klik \"Pilih Paket\" dan nikmati solusi pajak praktis!",
+      "aliases": [
+        "jasa-pengelolaan-pajak-by-pajakio"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-2fb7f6ff9aa72751",
+      "name": "Tanda Tangan Digital",
+      "description": "Buat bisnis Anda semakin seamless dengan solusi tanda tangan digital serta pengelolaan dokumen melalui Privy Enterprise Suite. Mulai dari mengunggah dokumen, tanda tangan, mengulas dokumen, hingga pembubuhan e-Meterai lewat satu platform. Anda dapat melakukannya dari mana saja dan kapan saja!",
+      "source_url": "https://indibiz.co.id/produk/tanda-tangan-digital-privy",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Buat bisnis Anda semakin seamless dengan solusi tanda tangan digital serta pengelolaan dokumen melalui Privy Enterprise Suite. Mulai dari mengunggah dokumen, tanda tangan, mengulas dokumen, hingga pembubuhan e-Meterai lewat satu platform. Anda dapat melakukannya dari mana saja dan kapan saja!",
+      "aliases": [
+        "tanda-tangan-digital-privy"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-ccd373dd1fe484b9",
+      "name": "Pajak.io Software Subscription",
+      "description": "Kesulitan urus pajak? Pajak.io hadir untuk kelola kebutuhan pajak Anda, rekam faktur, buat ID billing, lapor SPT, hingga bukti potong dalam satu dashboard. Sebagai mitra resmi PJAP yang diawasi Dirjen Pajak RI & bersertifikat ISO/IEC 27001, Pajak.io siap bantu Anda. Klik \"Konsultasi Sekarang\" untuk diskusi gratis bersama konsultan ahli!",
+      "source_url": "https://indibiz.co.id/produk/pajak-io-software-subscription",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Kesulitan urus pajak? Pajak.io hadir untuk kelola kebutuhan pajak Anda, rekam faktur, buat ID billing, lapor SPT, hingga bukti potong dalam satu dashboard. Sebagai mitra resmi PJAP yang diawasi Dirjen Pajak RI & bersertifikat ISO/IEC 27001, Pajak.io siap bantu Anda. Klik \"Konsultasi Sekarang\" untuk diskusi gratis bersama konsultan ahli!",
+      "aliases": [
+        "pajak-io-software-subscription"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-bbe63aa0e9c5f45e",
+      "name": "Wifi Internet",
+      "description": "WiFi Managed Service membantu pelanggan SME menyediakan akses WiFi yang nyaman bagi pengunjung. Dilengkapi perangkat access point dan koneksi internet Telkom yang andal, solusi ini memudahkan bisnis menghadirkan pengalaman terhubung yang lebih baik di lokasi usaha.",
+      "source_url": "https://indibiz.co.id/produk/wifi-internet",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "WiFi Managed Service membantu pelanggan SME menyediakan akses WiFi yang nyaman bagi pengunjung. Dilengkapi perangkat access point dan koneksi internet Telkom yang andal, solusi ini memudahkan bisnis menghadirkan pengalaman terhubung yang lebih baik di lokasi usaha.",
+      "aliases": [
+        "wifi-internet"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-bf234d427c5e8984",
+      "name": "ASTINet Internet Dedicated",
+      "description": "Hadirkan koneksi internet dedicated yang cepat, stabil, dan konsisten untuk mendukung kebutuhan digital bisnis. Dengan rasio kecepatan 1:1, IP Static Public, serta keamanan yang andal, koneksi ini membantu menjaga aktivitas bisnis tetap lancar dan produktif mulai dari 1 Mbps.",
+      "source_url": "https://indibiz.co.id/produk/astinet",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Hadirkan koneksi internet dedicated yang cepat, stabil, dan konsisten untuk mendukung kebutuhan digital bisnis. Dengan rasio kecepatan 1:1, IP Static Public, serta keamanan yang andal, koneksi ini membantu menjaga aktivitas bisnis tetap lancar dan produktif mulai dari 1 Mbps.",
+      "aliases": [
+        "astinet"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-b2da1937663c5021",
+      "name": "Zemangat Aplikasi Manajemen Karyawan",
+      "description": "Kelola seluruh kebutuhan administrasi karyawan dalam satu platform bersama Zemangat. Mulai dari absensi online, lembur, cuti, izin, hingga payroll dengan perhitungan BPJS dan PPh terupdate. Praktis, terintegrasi, dan membantu HR mengelola karyawan lebih efisien.",
+      "source_url": "https://indibiz.co.id/produk/aplikasi-manajemen-karyawan",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Kelola seluruh kebutuhan administrasi karyawan dalam satu platform bersama Zemangat. Mulai dari absensi online, lembur, cuti, izin, hingga payroll dengan perhitungan BPJS dan PPh terupdate. Praktis, terintegrasi, dan membantu HR mengelola karyawan lebih efisien.",
+      "aliases": [
+        "aplikasi-manajemen-karyawan"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-f203d1d223c2784c",
+      "name": "Helium Security Vulnerability Scanner",
+      "description": "Helium Security Vulnerability Scanner adalah tools yang memungkinkan siapa saja untuk melakukan pengujian keamanan dengan mudah tanpa perlu melakukan instalasi. Tools ini mengidentifikasi kerentanan dan menyediakan panduan untuk perbaikan, sehingga aplikasi Anda dapat terhindar dari serangan siber yang merugikan.",
+      "source_url": "https://indibiz.co.id/produk/helium-security-scanner",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Helium Security Vulnerability Scanner adalah tools yang memungkinkan siapa saja untuk melakukan pengujian keamanan dengan mudah tanpa perlu melakukan instalasi. Tools ini mengidentifikasi kerentanan dan menyediakan panduan untuk perbaikan, sehingga aplikasi Anda dapat terhindar dari serangan siber yang merugikan.",
+      "aliases": [
+        "helium-security-scanner"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-2b158cea10f3251e",
+      "name": "KasirAja Aplikasi kasir",
+      "description": "Anda memiliki kesulitan dalam mencatat transaksi, laporan usaha, dan terkendala menerapkan strategi bisnis? KasirAja memberikan solusi agar bisnis Anda menjadi lebih efisien, praktis, dan terintegrasi! Klik \"Pilih Paket\" untuk tahu paket yang Anda butuhkan.",
+      "source_url": "https://indibiz.co.id/produk/kasir-aja",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Anda memiliki kesulitan dalam mencatat transaksi, laporan usaha, dan terkendala menerapkan strategi bisnis? KasirAja memberikan solusi agar bisnis Anda menjadi lebih efisien, praktis, dan terintegrasi! Klik \"Pilih Paket\" untuk tahu paket yang Anda butuhkan.",
+      "aliases": [
+        "kasir-aja"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-3ed2c45605676913",
+      "name": "Sistem Informasi Manajemen Klinik",
+      "description": "Healthical adalah aplikasi sistem informasi yang dapat digunakan untuk pelayanan kesehatan dengan ruang lingkup yang luas dan komprehensif untuk Klinik. Dirancang berbasis web dengan metode cloud computing yang dinamis, memudahkan Anda dalam mendapatkan informasi pendaftaran pasien.",
+      "source_url": "https://indibiz.co.id/produk/healthical",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Healthical adalah aplikasi sistem informasi yang dapat digunakan untuk pelayanan kesehatan dengan ruang lingkup yang luas dan komprehensif untuk Klinik. Dirancang berbasis web dengan metode cloud computing yang dinamis, memudahkan Anda dalam mendapatkan informasi pendaftaran pasien.",
+      "aliases": [
+        "healthical"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-4a611a0637621101",
+      "name": "OmniHub Lite PMS",
+      "description": "Kelola operasional hotel lebih mudah dalam satu sistem dengan fitur reservasi, night audit, dan instant mapping ke channel manager. Dapatkan pula pilihan pembuatan website gratis dengan minimum berlangganan tiga bulan untuk mendukung kebutuhan digital hotel.",
+      "source_url": "https://indibiz.co.id/produk/omnihub-lite-pms",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Kelola operasional hotel lebih mudah dalam satu sistem dengan fitur reservasi, night audit, dan instant mapping ke channel manager. Dapatkan pula pilihan pembuatan website gratis dengan minimum berlangganan tiga bulan untuk mendukung kebutuhan digital hotel.",
+      "aliases": [
+        "omnihub-lite-pms"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-453a53e7a247059c",
+      "name": "OmniHub Channel Manager",
+      "description": "OmniHub Channel Manager menghadirkan integrasi seamless seluruh channel pemesanan hotel Anda, termasuk platform OTA populer. Manfaatkan sinkronisasi real-time untuk manajemen hotel yang efisien dan terhindar dari overbooking. Silakan klik tombol \"Konsultasi Sekarang\" untuk menemukan solusi yang sesuai dengan kebutuhan hotel Anda.",
+      "source_url": "https://indibiz.co.id/produk/omnihub-channel-manager",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "OmniHub Channel Manager menghadirkan integrasi seamless seluruh channel pemesanan hotel Anda, termasuk platform OTA populer. Manfaatkan sinkronisasi real-time untuk manajemen hotel yang efisien dan terhindar dari overbooking. Silakan klik tombol \"Konsultasi Sekarang\" untuk menemukan solusi yang sesuai dengan kebutuhan hotel Anda.",
+      "aliases": [
+        "omnihub-channel-manager"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-21e917a7a98751bf",
+      "name": "OmniHub Booking Engine",
+      "description": "OmniHub Booking Engine adalah solusi digital untuk memudahkan pemesanan kamar melalui website hotel Anda tanpa komisi tambahan. Layanan ini dilengkapi dengan tampilan yang mudah digunakan serta modul analitik untuk tingkatkan efisiensi operasional hotel Anda. Temukan solusi kebutuhan hotel Anda dengan klik tombol \"Konsultasi Sekarang\".",
+      "source_url": "https://indibiz.co.id/produk/omnihub-booking-engine",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "OmniHub Booking Engine adalah solusi digital untuk memudahkan pemesanan kamar melalui website hotel Anda tanpa komisi tambahan. Layanan ini dilengkapi dengan tampilan yang mudah digunakan serta modul analitik untuk tingkatkan efisiensi operasional hotel Anda. Temukan solusi kebutuhan hotel Anda dengan klik tombol \"Konsultasi Sekarang\".",
+      "aliases": [
+        "omnihub-booking-engine"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-f5243d84b12cbb4c",
+      "name": "Manajemen Tiket Wisata",
+      "description": "Manajemen Tiket Wisata hadir sebagai platform end-to-end yang lengkap dan terintegrasi, memudahkan pengelolaan destinasi wisata. Tidak terbatas pada sistem penjualan tiket secara digital saja, layanan ini juga menyajikan fitur manajemen yang komplit untuk memudahkan Anda dalam mengelola bisnis wisata dengan lebih baik di era digital.",
+      "source_url": "https://indibiz.co.id/produk/ticketing-system",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Manajemen Tiket Wisata hadir sebagai platform end-to-end yang lengkap dan terintegrasi, memudahkan pengelolaan destinasi wisata. Tidak terbatas pada sistem penjualan tiket secara digital saja, layanan ini juga menyajikan fitur manajemen yang komplit untuk memudahkan Anda dalam mengelola bisnis wisata dengan lebih baik di era digital.",
+      "aliases": [
+        "ticketing-system"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-890e9bb73812c640",
+      "name": "Microsoft 365 for Business",
+      "description": "Microsoft 365 menawarkan akses ke aplikasi produktivitas terbaik, seperti Word, Excel, PowerPoint, Outlook, Teams, SharePoint, OneDrive, dan aplikasi berbasis cloud lainnya. Gunakan aplikasi ini untuk meningkatkan produktivitas dan kolaborasi bisnis Anda di mana saja dan kapan saja. Klik \"Konsultasi Sekarang\" untuk informasi lebih lanjut.",
+      "source_url": "https://indibiz.co.id/produk/maintenance/office-productivity",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Microsoft 365 menawarkan akses ke aplikasi produktivitas terbaik, seperti Word, Excel, PowerPoint, Outlook, Teams, SharePoint, OneDrive, dan aplikasi berbasis cloud lainnya. Gunakan aplikasi ini untuk meningkatkan produktivitas dan kolaborasi bisnis Anda di mana saja dan kapan saja. Klik \"Konsultasi Sekarang\" untuk informasi lebih lanjut.",
+      "aliases": [
+        "office-productivity"
+      ],
+      "availability": "maintenance"
+    },
+    {
+      "id": "P-d2d898303998d009",
+      "name": "Moka POS (Jabodetabek Only)",
+      "description": "Moka POS merupakan aplikasi kasir multifungsi berbasis cloud untuk memudahkan kegiatan jual beli dan operasional bisnis. Dilengkapi dengan fitur monitoring sehingga Anda dapat memantau bisnis secara real-time kapan dan di mana saja. Saat ini MOKA POS tersedia hanya untuk bisnis di area Jabodetabek. Klik “Hubungi Sales” untuk memahami produk lebih lanjut.",
+      "source_url": "https://indibiz.co.id/produk/moka-aplikasi-kasir",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Moka POS merupakan aplikasi kasir multifungsi berbasis cloud untuk memudahkan kegiatan jual beli dan operasional bisnis. Dilengkapi dengan fitur monitoring sehingga Anda dapat memantau bisnis secara real-time kapan dan di mana saja. Saat ini MOKA POS tersedia hanya untuk bisnis di area Jabodetabek. Klik “Hubungi Sales” untuk memahami produk lebih lanjut.",
+      "aliases": [
+        "moka-aplikasi-kasir"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-f39b4cc1dbcf10e2",
+      "name": "Software HRIS",
+      "description": "Kelola administrasi HR lebih mudah dengan solusi HRIS berbasis cloud yang membantu mengelola penggajian dan berbagai kebutuhan karyawan dalam satu platform. Pantau data dan kontribusi SDM secara lebih praktis untuk mendukung efisiensi serta pengelolaan bisnis yang lebih optimal.",
+      "source_url": "https://indibiz.co.id/produk/broadways-hr",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Kelola administrasi HR lebih mudah dengan solusi HRIS berbasis cloud yang membantu mengelola penggajian dan berbagai kebutuhan karyawan dalam satu platform. Pantau data dan kontribusi SDM secara lebih praktis untuk mendukung efisiensi serta pengelolaan bisnis yang lebih optimal.",
+      "aliases": [
+        "broadways-hr"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-fb3ab3969a0b13d9",
+      "name": "Software e-Procurement",
+      "description": "Platform e-Procurement berbasis cloud yang membantu pelanggan SME mengelola pengadaan dan tender secara lebih praktis dalam satu platform. Dilengkapi akses pembiayaan, solusi ini membantu bisnis bekerja lebih efisien, membuka lebih banyak peluang, dan berkembang lebih cepat.",
+      "source_url": "https://indibiz.co.id/produk/run-market",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Platform e-Procurement berbasis cloud yang membantu pelanggan SME mengelola pengadaan dan tender secara lebih praktis dalam satu platform. Dilengkapi akses pembiayaan, solusi ini membantu bisnis bekerja lebih efisien, membuka lebih banyak peluang, dan berkembang lebih cepat.",
+      "aliases": [
+        "run-market"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-86f57e01602e3e40",
+      "name": "ERP Software",
+      "description": "Optimalkan operasional bisnis dengan solusi ERP terintegrasi yang membantu mengelola pengadaan, transaksi, pasar, hingga cash flow dalam satu platform. Dapatkan visibilitas bisnis yang lebih baik, tingkatkan efisiensi operasional, dan dukung pengambilan keputusan untuk mendorong pertumbuhan bisnis.",
+      "source_url": "https://indibiz.co.id/produk/run-system-one",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Optimalkan operasional bisnis dengan solusi ERP terintegrasi yang membantu mengelola pengadaan, transaksi, pasar, hingga cash flow dalam satu platform. Dapatkan visibilitas bisnis yang lebih baik, tingkatkan efisiensi operasional, dan dukung pengambilan keputusan untuk mendorong pertumbuhan bisnis.",
+      "aliases": [
+        "run-system-one"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-447a7063cc2446ac",
+      "name": "HSI B2B Bisnis",
+      "description": "Internet Bisnis hadir untuk mendukung kebutuhan konektivitas pelanggan SME dengan koneksi internet cepat dan stabil, serta rasio kecepatan 1:2 hingga 1:1. Didukung teknologi IP Dynamic Private, layanan ini membantu menjaga kelancaran aktivitas digital, meningkatkan produktivitas, dan mendukung operasional bisnis.",
+      "source_url": "https://indibiz.co.id/produk/indibiz-internet",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Internet Bisnis hadir untuk mendukung kebutuhan konektivitas pelanggan SME dengan koneksi internet cepat dan stabil, serta rasio kecepatan 1:2 hingga 1:1. Didukung teknologi IP Dynamic Private, layanan ini membantu menjaga kelancaran aktivitas digital, meningkatkan produktivitas, dan mendukung operasional bisnis.",
+      "aliases": [
+        "indibiz-internet"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-c02aba8da9d97087",
+      "name": "Layanan Google Workspace",
+      "description": "Tingkatkan produktivitas dan kolaborasi tim dengan rangkaian tools berbasis cloud dalam satu platform. Nikmati kemudahan bekerja, berkomunikasi, berbagi dokumen, dan mengelola pekerjaan melalui Gmail, Drive, Docs, Sheets, Calendar, Meet, dan berbagai aplikasi lainnya.",
+      "source_url": "https://indibiz.co.id/produk/layanan-google-workspace",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Tingkatkan produktivitas dan kolaborasi tim dengan rangkaian tools berbasis cloud dalam satu platform. Nikmati kemudahan bekerja, berkomunikasi, berbagi dokumen, dan mengelola pekerjaan melalui Gmail, Drive, Docs, Sheets, Calendar, Meet, dan berbagai aplikasi lainnya.",
+      "aliases": [
+        "layanan-google-workspace"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-ed630363b36e8508",
+      "name": "Iklan SMS LBA",
+      "description": "Ingin bisnis Anda terkenal dibeberapa daerah tertentu? atau bisnis Anda memiliki konsumen dengan lokasi yang spesifik? Gunakan layanan iklan SMS berbasis wilayah dari Adsqoo, iklan jadi lebih tepat sasaran dan sesuai dengan wilayah yang diinginkan!",
+      "source_url": "https://indibiz.co.id/produk/iklan-sms-lba-adsqoo",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Ingin bisnis Anda terkenal dibeberapa daerah tertentu? atau bisnis Anda memiliki konsumen dengan lokasi yang spesifik? Gunakan layanan iklan SMS berbasis wilayah dari Adsqoo, iklan jadi lebih tepat sasaran dan sesuai dengan wilayah yang diinginkan!",
+      "aliases": [
+        "iklan-sms-lba-adsqoo"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-36bad97ab51f0a75",
+      "name": "Iklan Push Notifikasi",
+      "description": "Udah pasang iklan, tapi usaha masih sepi? Pasang iklan push notifikasi dari Adsqoo. Dengan iklan push notifikasi dari Adsqoo, Anda dapat mengatur waktu dan target iklan lebih spesifik. Iklan tepat sasaran sesuai dengan keinginan kamu!",
+      "source_url": "https://indibiz.co.id/produk/iklan-push-notifikasi-adsqoo",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Udah pasang iklan, tapi usaha masih sepi? Pasang iklan push notifikasi dari Adsqoo. Dengan iklan push notifikasi dari Adsqoo, Anda dapat mengatur waktu dan target iklan lebih spesifik. Iklan tepat sasaran sesuai dengan keinginan kamu!",
+      "aliases": [
+        "iklan-push-notifikasi-adsqoo"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-cb6ad6bac71437c0",
+      "name": "Iklan Tiktok",
+      "description": "Usaha kamu belum dikenal? udah pasang iklan tapi masih sepi? Viralkan usaha kamu lewat iklan TikTok sekarang juga, semuanya dikerjakan tanpa repot lewat layanan iklan TikTok oleh Adsqoo . Dengan iklan TikTok yang up to date, profit pun meroket!",
+      "source_url": "https://indibiz.co.id/produk/iklan-tiktok-adsqoo",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Usaha kamu belum dikenal? udah pasang iklan tapi masih sepi? Viralkan usaha kamu lewat iklan TikTok sekarang juga, semuanya dikerjakan tanpa repot lewat layanan iklan TikTok oleh Adsqoo . Dengan iklan TikTok yang up to date, profit pun meroket!",
+      "aliases": [
+        "iklan-tiktok-adsqoo"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-06b6870a1669c929",
+      "name": "Iklan Instagram",
+      "description": "Mau bisnis kamu eksis di instagram? banyak followers yang bikin jualan makin laris? Adsqoo dapat membantumu dengan layanan iklan Instagram yang menayangkan konten bisnismu ke jutaan pengguna aktif instagram setiap harinya. Bisnis kamu eksis dagangan laris manis!",
+      "source_url": "https://indibiz.co.id/produk/iklan-instagram-adsqoo",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Mau bisnis kamu eksis di instagram? banyak followers yang bikin jualan makin laris? Adsqoo dapat membantumu dengan layanan iklan Instagram yang menayangkan konten bisnismu ke jutaan pengguna aktif instagram setiap harinya. Bisnis kamu eksis dagangan laris manis!",
+      "aliases": [
+        "iklan-instagram-adsqoo"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-c23ca6d16ccd0902",
+      "name": "Iklan Facebook",
+      "description": "Mau pasang iklan di timeline Facebook tapi bingung caranya gimana? Adsqoo dapat membantumu dengan layanan iklan Facebook yang dapat diatur jangkauan dan wilayahnya, sehingga iklan kamu bisa tepat sasaran.",
+      "source_url": "https://indibiz.co.id/produk/iklan-facebook-adsqoo",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Mau pasang iklan di timeline Facebook tapi bingung caranya gimana? Adsqoo dapat membantumu dengan layanan iklan Facebook yang dapat diatur jangkauan dan wilayahnya, sehingga iklan kamu bisa tepat sasaran.",
+      "aliases": [
+        "iklan-facebook-adsqoo"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-385cd3ad77dfc4cf",
+      "name": "Iklan Google",
+      "description": "Mau usaha kamu laris, tapi ribet pasang iklan di Google? Adsqoo dapat membantumu dengan layanan iklan Google Display Network (GDN), pasang iklan berbentuk banner dan tampilkan di website-website yang bekerja sama dengan Google. Bikin bisnis laris sampai dikira pakai penglaris!",
+      "source_url": "https://indibiz.co.id/produk/iklan-google-adsqoo",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Mau usaha kamu laris, tapi ribet pasang iklan di Google? Adsqoo dapat membantumu dengan layanan iklan Google Display Network (GDN), pasang iklan berbentuk banner dan tampilkan di website-website yang bekerja sama dengan Google. Bikin bisnis laris sampai dikira pakai penglaris!",
+      "aliases": [
+        "iklan-google-adsqoo"
+      ],
+      "availability": "listed"
+    },
+    {
+      "id": "P-4a00c5b963f27927",
+      "name": "indibizPay",
+      "description": "Perkembangan teknologi digital menghadirkan berbagai inovasi pada bisnis, termasuk teknologi pembayaran digital seperti QRIS atau Quick Response Indonesia Standard. Sebagai solusi untuk bisnis, pengguna myindibiz dapat membuat kode QRIS melalui aplikasi dan website myindibiz untuk mempermudah proses pembayaran secara digital yang telah diintegrasikan dengan berbagai aplikasi mobile banking dan dompet digital yang masif digunakan di Indonesia.",
+      "source_url": "https://indibiz.co.id/produk/maintenance/qris",
+      "observed_at": "2026-10-27T04:26:51.661078+00:00",
+      "entry_type": "official_product_payload",
+      "evidence_quote": "Perkembangan teknologi digital menghadirkan berbagai inovasi pada bisnis, termasuk teknologi pembayaran digital seperti QRIS atau Quick Response Indonesia Standard. Sebagai solusi untuk bisnis, pengguna myindibiz dapat membuat kode QRIS melalui aplikasi dan website myindibiz untuk mempermudah proses pembayaran secara digital yang telah diintegrasikan dengan berbagai aplikasi mobile banking dan dompet digital yang masif digunakan di Indonesia.",
+      "aliases": [
+        "qris"
+      ],
+      "availability": "maintenance"
+    }
+  ],
+  "updated_at": "2026-10-27T04:26:51.661078+00:00",
+  "last_attempt_at": "2026-10-27T04:26:51.661078+00:00",
+  "seeds": [
+    "https://www.telkomsolution.co.id/",
+    "https://www.telkomsolution.co.id/produk",
+    "https://indibiz.co.id/"
+  ],
+  "pages_read": 103,
+  "crawl_limit": 120,
+  "limit_reached": false,
+  "errors": [
+    {
+      "url": "https://indibiz.co.id/success-story/tingkatkan-pelayanan-tamu-villa-grand-artos-hadirkan-internet-stabil",
+      "message": "Sumber tidak terbaca (HTTPStatusError); periksa akses jaringan/TLS."
+    }
+  ],
+  "notice": "Katalog dibaca dari halaman dan sitemap resmi dengan batas 120 halaman. Nama, deskripsi, dan URL adalah bukti sumber; kecocokan kebutuhan tetap usulan, bukan penawaran atau jaminan ketersediaan."
+}
